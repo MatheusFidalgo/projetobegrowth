@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-2.2.1.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <title>Be Growth - Entregadores</title>
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caixapreta">
+            <h1><img class="logobranco" src="/images/begrr branco.png">Be Growth - Projeto Rappi</a></h1>
+        </div>
+        <div class="caixacinza">
+            <nav>
+                <ul>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/supermercados'>Supermercados</a></li>
+                    <li><a href='/entregadores'>Entregadores</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="mapa">
+        <h3 class="titulo-mapa">Be Growth - Entregadores</h3>
+        <p>Caro entregador, confira a lista de produtos com suas respectivas datas de vencimento e supermercado.</p>
+        <h4 class="lista-produtos">Produto -  Vencimento - Supermercado</h4>
+    
+    </section>   
+
+    <section class="container">
+  
+        <table>
+            <thead>
+                <% for(var i=0; i < infos.length; i++){ %>
+                <tr>
+                    <th> <%=infos[i].produto  %> </th>
+                    <th><%=infos[i].data  %></th>
+                    <th><%=infos[i].local  %></th>
+                </tr>
+                <% } %>
+            </thead>
+
+            
+        </table>
+
+    </section>
+    <section class="parcerias">
+        <img src="images/restaurantes.png">
+    </section>
+</body>
+<footer>
+    <section class="bordarodape"><p>a</p></section>
+        <section class="numerosrodape">
+            <p><strong>Central de Atendimento</strong></p>
+            <p>São Paulo:<strong>(11) 3xxx-2xxx</strong></p>
+            <p>Rio de Janeiro:<strong>(21) xxxx-xxxx</strong></p>
+            <p>Demais Regiões:<strong>0800xxxxxx</strong></p>
+        </section>
+        <section class="direitos">
+        <p><strong>Be Growth Rappi</strong> - Todos os direitos reservados</p>
+        </section>
+</footer>
+</html>

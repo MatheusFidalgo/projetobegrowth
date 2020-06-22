@@ -1,0 +1,177 @@
+.logobranco{
+	width: 2%;
+	padding-right: 10px;
+}
+.cabeca{
+	padding-left: 1100px;
+}
+header .caixapreta{
+	font-size: 30px;
+	text-transform: uppercase;
+	background: #000000;
+	color: #ffffff;
+	padding: 20px 30px 30px;
+	font-family: 'Fredoka One', cursive;
+}
+header .caixacinza{
+	width: 100%;
+	background: #F9F9F9;
+	border-bottom: 1px solid #000000;
+	padding: 30px 30px 30px;
+	margin: 0 0 1px;
+}
+nav{
+	display: inline;
+	position: absolute;
+	top: 110px;
+	left: 20px;
+
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: bold;
+	color:red;
+
+}
+nav li{
+	display: inline;
+	margin: 0 15px;
+}
+.imagens{
+	background: #Ffffff;	
+}
+
+
+.parcerias{
+	margin-top: 150px;
+	background: #FFFFFF;
+	padding-left: 25px;
+	text-align: center;
+	image-resolution: 10px;
+}
+.noticias{
+	padding: 30px 0;
+}
+.titulonoticias{
+	font-family: 'Alatsi', sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer{
+	background: #4b4b4b;
+	color: white;
+	font-family: 'Arial', sans-serif;
+}
+.bordarodape{
+	background:#000000;
+	color: #000000;
+	font-size: 10px;
+}
+.numerosrodape{
+	padding: 20px 20px 10px 10px;
+	margin: 5px 5px 5px 5px;
+	letter-spacing: 1px;
+}
+.direitos{
+	padding: 20px 20px 10px 10px;
+	margin: 5px 5px 5px 5px;
+	letter-spacing: 2px;
+}
+strong{
+	font-weight: bold;
+}
+
+
+.centralizado{
+	align-content: center;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#bfbfbf , #FEFEFE);
+	color:#0f0f0f;
+	font-family: 'Fredoka One', cursive;
+	
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+	color: #000000;
+}
+
+.titulo-mapa {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.formulario{
+	text-align: center;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+.erros{
+	text-align: center;
+	background-color: red;
+}
+
+.tabela-produtos{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Alatsi', sans-serif;
+
+}
+.lista-produtos{
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+	margin: 0 0 1em;
+	clear: left;
+	
+}
+.container{
+	width: 45%;
+	height: 50%;
+	margin: 0 auto;
+	vertical-align:	middle;
+}
+table{
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	width: 100%;
+	margin-bottom : .10em;
+    table-layout: fixed;
+
+}
+tr{
+	margin-top: 300px;
+}
