@@ -1,5 +1,5 @@
 # projetobegrowth
-Esse projeto contém a criação de um projeto web utilizando a como base um modelo Rappi de cadastro e visualização de demanda.
+Esse projeto contém a criação de um projeto web utilizando como base um modelo Rappi de cadastro e visualização de demanda.
 
 ## Instalando
 * Para rodar o projeto você precisa ter o [NodeJS](https://nodejs.org/en/) instalado.
